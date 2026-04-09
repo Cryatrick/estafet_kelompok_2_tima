@@ -1,6 +1,6 @@
 <?php
 $host = "10.11.12.109";
-$username = "estafer_user";
+$username = "estafet_user";
 $pass = "Qwerty123$%";
 $db = "estafet_db";
 
