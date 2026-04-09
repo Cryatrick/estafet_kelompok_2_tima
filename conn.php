@@ -1,5 +1,12 @@
 <?php
 $host = "10.11.12.109";
 $username = "estafer_user";
-$pass =
-$db =
+$pass = "Qwerty123$%";
+$db = "estafet_db";
+
+$dbConnection = mysqli_connect($host, $usename, $pass, $db);
+
+if (!$dbConnection) {
+    die ("Connection Error: " . mysqli_connect_error());
+}
+?>
