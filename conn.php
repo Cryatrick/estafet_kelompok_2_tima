@@ -4,7 +4,7 @@ $username = "estafet_user";
 $pass = "Qwerty123$%";
 $db = "estafet_db";
 
-$dbConnection = mysqli_connect($host, $usename, $pass, $db);
+$dbConnection = mysqli_connect($host, $username, $pass, $db);
 
 if (!$dbConnection) {
     die ("Connection Error: " . mysqli_connect_error());
